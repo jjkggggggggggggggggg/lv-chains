@@ -18,6 +18,7 @@ function attachProp(ped, model, boneId, x, y, z, xR, yR, zR, altVertex)
 
   return prop
 end
+local QBCore = exports['qb-core']:GetCoreObject()
 local cool = true
 local checking = false
 local chs = true
